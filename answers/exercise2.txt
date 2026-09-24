@@ -1,0 +1,11 @@
+jwkarki@lx1-fuxi131:~/Maisteri/fullstack/fullstackopen-part12$ docker container run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+09923199ca0e: Pull complete 
+d9b985643753: Pull complete 
+Digest: sha256:da6fc2be547864451aa253836dd926da33623312df4a9a243e35dc877c378a78
+Status: Downloaded newer image for ubuntu:latest
+root@0e0364414da6:/#  mkdir -p /usr/src/app
+root@0e0364414da6:/# touch /usr/src/app/index.js
+root@0e0364414da6:/# exit
+exit
